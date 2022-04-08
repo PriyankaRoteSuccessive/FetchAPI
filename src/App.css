@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  text-align: center;
+}
+nav {
+  background-color: rgb(26, 63, 230);
+  color: #ffff;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(65,84,179);
+  height: 50px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+color: rgb(232, 233, 235);
+}
+img {
+  border-radius: 50%;
+}
+.mydiv{
+  
+  justify-content: center;
+  text-align: center;
+}
