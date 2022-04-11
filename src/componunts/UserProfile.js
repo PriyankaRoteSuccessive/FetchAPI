@@ -2,26 +2,12 @@ import React from 'react'
 import { NavBar } from '.'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import { makeStyles } from "@material-ui/core/styles";
 import Typography from '@mui/material/Typography'; 
 import { useLocation } from 'react-router'
-import { style } from '@mui/system';
-
-// const useStyles = makeStyles(
-//   theme => ({
-//     mydiv:{
-//       width:200,
-//       backgroundColor:'red',
-//     },
-//   })
-// )
-
 
 const UserProfile = () => {
   const location = useLocation();
   console.log("hello user", location.state)
-
-//  const myclass = useStyles()
 
   return (
     <>

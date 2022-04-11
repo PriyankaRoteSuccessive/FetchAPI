@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import { UserList, UserProfile } from './componunts';
+import { UserList, UserProfile,Form } from './componunts';
 import Dashboard from './componunts/Dashboard';
 
 
@@ -12,6 +12,8 @@ const Router = () => {
                 <Route exact path="/" element={<Dashboard/>} />
                 <Route path="/UserList" element={<UserList/>} />
                 <Route  path="/UserProfile" element={<UserProfile/>} />
+                <Route  path="/Form" element={<Form/>} />
+
             </Routes>
         </BrowserRouter>
     </>
