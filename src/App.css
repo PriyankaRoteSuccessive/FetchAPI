@@ -69,45 +69,49 @@ img {
 .container {
   width: 400px;
   margin:0 auto;
-  padding: 3rem;
+  padding: 40px;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+span.success-msg {
+  padding: 0 120px;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 32px;
   color: #293241;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 label,input {
   color: #293241;
 }
 label {
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 
 input {
   border: 2px solid rgba(#1d3557, 0.8);
   border-radius: 4px;
-  padding: 0.5rem 1rem;
-  padding-left: 1rem;
-  font-size: 1rem;
+  padding: 8px 16px;
+  padding-left: 16px;
+  font-size: 16px;
 }
 
 .form-row {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 button {
   color: #fff;
-  width: 100%;
-  font-size: 1.4rem;
+  width: 70%;
+  font-size: 22px;
   background:  #1d3557;
   border-radius:4px;
   border: none;
   cursor: pointer;
-  padding: 0.4rem 1.2rem;
-  margin-top: 0.5rem;
+  padding: 6px 20px;
+  margin: 8px 0 0 60px ;
 }
   button:hover {
     background: rgba( #1d3557, 0.8);
@@ -120,8 +124,8 @@ button {
 
   .error {
     color: #e63946;
-    font-size: 1rem;
-    margin-top: 0.3rem;
+    font-size: 16px;
+    margin-top: 6px;
   }
 
   .disabled-btn {
